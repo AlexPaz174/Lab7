@@ -1,0 +1,29 @@
+html {
+  font-family: 'Roboto', serif;
+  font-size: 110%;
+}
+
+h1 {
+  color: Red;
+}
+
+input {
+  width: 90%;
+  height: 20px;
+  font-size: 100%;
+}
+
+button {
+  font-weight: bold;
+  font-size:100%;
+}
+
+form {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid lightgrey;
+}
+
+resultHead {
+  font-size: 110%;
+}
