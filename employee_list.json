@@ -1,3 +1,1 @@
-[
-	{ "first_name":"John", "last_name":"Smith", "department":"Engineering", "idNum":12345678, "hireDate":"Sunday, 07-May-2017 04:10:54 CEST"}
-]
+[{"first_name":"Dude","last_name":"guy","department":"Engineering","idNum":77019622,"hireDate":"Sunday, 07-May-2017 06:11:25 CEST"},{"first_name":"Dude","last_name":"guy","department":"Engineering","idNum":85990128,"hireDate":"Sunday, 07-May-2017 06:12:21 CEST"},{"first_name":"Dudette","last_name":"Gal","department":"Comp_Sci","idNum":27193070,"hireDate":"Sunday, 07-May-2017 06:12:34 CEST"}]
