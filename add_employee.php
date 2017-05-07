@@ -50,7 +50,7 @@
 	file_put_contents("/Applications/XAMPP/xamppfiles/htdocs/Lab7/employee_list.json",json_encode($jsonArray));
 	*/
 
-	
+	/*
 	//Test for Array Check
 	$arrayLength = count($jsonArray);
 	echo $arrayLength;
@@ -58,6 +58,7 @@
 		echo json_encode(($jsonArray[$i]));
 		echo '<br>';
 	}
+	*/
 	
 
 ?>
