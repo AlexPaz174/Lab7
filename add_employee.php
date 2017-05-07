@@ -13,13 +13,13 @@
 			$this->hireDate = date(DATE_COOKIE);
 			//Make sure idNum is unique
 			$jsonTemp = file_get_contents("http://localhost/Lab7/employee_list.json", true);
-			$tempArray = json_decode($jsonTemp, true);
+			$tempArray = json_decode($jsonTemp);
 			$idTemp = rand(10000000,99999999);
 			$idClear = false;
 			while(!$idClear){
 				$idClear = true;
 				for($i=0;$i<count($tempArray);$i++){
-					if(idTemp==$tempArray[$i]->idNum){
+					if($idTemp==$tempArray[$i]->idNum){
 						$idTemp = rand(10000000,99999999);
 						$idClear = false;
 					}
@@ -45,10 +45,10 @@
 	$jsonArray[] = $new;
 	$arrayLength = count($jsonArray);
 
-	/*
+	
 	//Write to JSON file
 	file_put_contents("/Applications/XAMPP/xamppfiles/htdocs/Lab7/employee_list.json",json_encode($jsonArray));
-	*/
+	
 
 	/*
 	//Test for Array Check
